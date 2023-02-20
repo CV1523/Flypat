@@ -193,15 +193,13 @@ header a{
 .btn-tag2:hover {
     background-color: #0056b3;
 }
-.div-con{
-    display: grid;
-    position: relative;
+.div-abt{
     height: 10cm;
-    width: 50%;
+    width: 40%;
     padding: 10px;
     padding-right: 35px;
     line-height: 25px;
-    margin-left: 3.5em;
+    margin-left: 60px;
     font-family: 'Roboto', sans-serif;
     margin-bottom: 0px;
 }
@@ -263,6 +261,60 @@ header a{
     text-decoration: none;
     color: #fff;
 }
+.div-con{
+    display: grid;
+    position: relative;
+    height: 10cm;
+    width: 50%;
+    padding: 10px;
+    padding-right: 35px;
+    line-height: 25px;
+    margin-left: 3.5em;
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 0px;
+}
+.div-abt p{
+    font-size: 15px;
+    margin: 0;
+} 
+.div-abt h1{
+    font-weight: 3000;
+    font-size: 35px;
+    line-height: 50px;
+    margin-bottom: -8px;
+}
+.con-tact1{
+    margin-left: 49em;
+    margin-top: -390px;
+}
+.in-con-tact1{
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    border-width: none;
+    border-color: none;
+}
+.in-con-tact1 img{
+    padding: 20px;
+    height: 26em;
+    width: 38em;
+    margin-top: -20px;
+    margin-left: -140px;
+    border-radius: 25px;
+}
+.but-abt{
+    padding: 8px;
+    width: 2cm;
+    font-size: 15px;
+    border-radius: 5px;
+    font-family: 'Roboto', sans-serif;
+    color: rgb(255, 255, 255);
+    background-color: #4353e0;
+}
+.but-abt:hover{
+    background-color: #310adf;
+}
+
 @media screen and (max-width:902px){
     header nav{
         background-color: #045757;
@@ -377,4 +429,52 @@ header a{
         margin-top: 2rem;
         margin-left: 50px;
     }    
+    .div-abt{
+        display: grid;
+        height: 10cm;
+        width: 500px;
+        position: relative;
+        justify-content: center;
+        margin-top: 550px;
+        margin-right: 30px;
+        margin-left: -10px;
+        text-align: center;
+    }
+    .div-abt button{
+        display: grid;
+        justify-content: center;
+        position: relative;
+        align-items: center;
+        margin-left: 200px;
+    }
+    .div-abt h1{
+        line-height: 40px;
+    }
+    .div-abt p{
+        margin-top: -10px;
+        margin-bottom: 0px;
+    }
+    .con-tact1{
+        height: 23em;
+        width: 5cm;
+        padding: 10px;
+        display: grid;
+        position: relative;
+        margin-top: 1px;
+        margin-left: 100px;
+        justify-content: center;
+    }
+    .in-con-tact1 img{
+        padding: 20px;
+        height: 25em;
+        width: 25em;
+        margin-top: -20px;
+        margin-left: 55px;
+        border-radius: 25px;
+        position: relative;
+        justify-content: center;
+        align-items: center;
+        display: grid;
+        padding-bottom: 35px;
+    }
 }

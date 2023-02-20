@@ -252,7 +252,7 @@ header {
   } 
 
   .recipe-list {
-      list-style: none;
+      listyle: none;
       padding: 0;
       line-height: 25px;
   }
@@ -309,14 +309,7 @@ header {
     font-family: 'Roboto', sans-serif;
   }
 
- .in-con-tact img{
-  padding: 20px;
-  height: 26em;
-  width: 38em;
-  margin-top: -60px;
-  margin-left: -150px;
-  border-radius: 25px;
- }
+ 
 
  #inp{
   width: 10cm;
@@ -355,50 +348,7 @@ header {
   width: 50cm;
 }
 
-.div-abt{
-  height: 10cm;
-  width: 40%;
-  padding: 10px;
-  padding-right: 35px;
-  line-height: 25px;
-  margin-left: 25px;
-  font-family: 'Roboto', sans-serif;
-  margin-bottom: 0px;
-}
 
-.div-abt p{
-  font-size: 15px;
-  margin: 0;
- } 
-
- .div-abt h1{
-  font-weight: 3000;
-  font-size: 35px;
-  line-height: 50px;
-  margin-bottom: -8px;
- }
-
-.but-abt{
-  padding: 8px;
-  width: 2cm;
-  font-size: 15px;
-  border-radius: 5px;
-  font-family: 'Roboto', sans-serif;
-  color: rgb(255, 255, 255);
-  background-color: #4353e0;
-}
-
-.but-abt:hover{
-  background-color: #310adf;
-}
-
-.in-con-sr img{
-  height: 7.4cm;
-  width: 33em;
-  border-radius: 3px;
-  margin-left: 60px;
-  margin-top: 50px;
-}
 
 .div-sr{
   height: 10cm;
