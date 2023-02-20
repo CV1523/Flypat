@@ -117,6 +117,29 @@ header a{
     font-family: 'Roboto', sans-serif;
     
 }
+
+#main-Tag-tem{ 
+    width: 80%; 
+    display: grid;
+    border: none;
+    margin-top: 50px;
+    margin-left: 70px; 
+    margin-right: 1px;
+    grid-template-columns: repeat(auto-fill, 320px);
+    justify-content: center;
+    font-family: 'Roboto', sans-serif;
+    position: relative;
+}
+.tt-Beef{
+    display: flex;
+    position: relative;
+    justify-content: left;
+    padding-left: 70px;
+    font-size: 30px;
+    margin-top: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+
 .container2 {
     display: flex;
     justify-content: left;
