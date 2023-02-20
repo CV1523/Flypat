@@ -309,55 +309,6 @@ header {
     font-family: 'Roboto', sans-serif;
   }
 
-  .div-con{
-    height: 10cm;
-    width: 50%;
-    padding: 10px;
-    padding-right: 35px;
-    line-height: 25px;
-    margin-left: 25px;
-    font-family: 'Roboto', sans-serif;
-    margin-bottom: 0px;
-}
-
- .div-con p{
-  font-size: 15px;
-  margin:0;
- } 
-
- .div-con h1{
-  font-weight: 3000;
-  font-size: 40px;
-  line-height: 50px;
- }
-
- .con-tact{
-  height: 23em;
-  width: 35%;
-  padding: 18px;
-  background-color: rgb(255, 255, 255);
-  margin-left: 47em;
-  margin-top: -390px;
-  box-shadow: 5px 0 5px -5px rgba(0,0,0,0.5), 
-  0 5px 5px -5px rgba(0,0,0,0.5), 
-  -5px 0 5px -5px rgba(0,0,0,0.5);
-  border-radius: 5px;
- }
-
- .in-con-tact{
-  padding: 20px;
-  border-width: none;
-  border-color: none;
- }
-
- .in-con-tact label{
-  padding: 3px;
-  font-size: 12px;
-  font-family: 'Roboto', sans-serif;
-  margin-bottom: 0%;
-  letter-spacing: 0.45px;
- }
-
  .in-con-tact img{
   padding: 20px;
   height: 26em;
@@ -398,28 +349,6 @@ header {
 
  .btn-con:hover{
   background-color: #310adf;
-}
-
-.div2-con{
-  font-family: 'Roboto', sans-serif;
-  font-size: 18px;
-  text-align: center;
-  padding-top: 12px;
-  letter-spacing: 1px;
-  padding-bottom: 5px;
-}
-
-#main4 { 
-  width: 80%; 
-  display: grid;
-  border: none;
-  margin-top: 0;
-  margin-left: 130px; 
-  margin-right: 1px;
-  grid-template-columns: repeat(auto-fill, 320px);
-  justify-content: center;
-  font-family: 'Roboto', sans-serif;
-  margin-bottom: 0%;
 }
 
 .st-ig{
