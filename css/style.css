@@ -252,7 +252,7 @@ header {
   } 
 
   .recipe-list {
-      listyle: none;
+      list-style: none;
       padding: 0;
       line-height: 25px;
   }

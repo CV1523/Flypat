@@ -249,6 +249,7 @@ header a{
 .footer {
     position:relative;
     left: 0;
+    right: 0;
     bottom: 0;
     width: 100%;
     background-color: rgb(69, 69, 69);
@@ -314,7 +315,26 @@ header a{
 .but-abt:hover{
     background-color: #310adf;
 }
-
+#main-Tag-rec{ 
+    width: 80%; 
+    display: grid;
+    border: none;
+    margin-top: 280px;
+    margin-left: 70px; 
+    margin-right: 1px;
+    grid-template-columns: repeat(auto-fill, 320px);
+    justify-content: center;
+    font-family: 'Roboto', sans-serif;
+    position: relative;
+}
+.container-rec{
+    margin-top: 10px;
+    margin-left: 70px;
+    margin-right: 0px;
+    margin-bottom: -250px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+}
 @media screen and (max-width:902px){
     header nav{
         background-color: #045757;
@@ -476,5 +496,16 @@ header a{
         align-items: center;
         display: grid;
         padding-bottom: 35px;
+    }
+    .container-rec{
+        margin-top: 600px;
+        justify-content: center;
+        position: relative;
+        text-align: center;
+    }
+    #main-Tag-rec{
+        display: grid;
+        position: relative;
+        justify-content: center;
     }
 }
