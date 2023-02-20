@@ -1,0 +1,245 @@
+:root{
+    --bg-color:#000f;
+    --primary-color: #1B2430;
+    --secondary-color: #585858;
+    --primary-text-color: #4ECCA3;
+    --secondary-text-color: #045757;
+    --button-color: #2970da;
+}
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 10;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+}
+body{
+    background-color: rgb(255, 255, 255);
+}
+header{
+    position: relative;
+    width: 100%;
+    font-size: 1.5rem;
+    height: 100;
+    padding-top: 50px;
+    padding-left: 0px;
+}
+nav{
+    display: contents;
+    justify-content: space-around;
+    align-items: left;
+    width: 100%;
+    height:80px;
+}
+nav img{
+    padding-top: 14px;
+}
+nav ul{
+    display: flex;
+}
+nav ul li{
+    padding: 2rem 2rem;
+    font-size: 15px;
+}
+nav ul button{
+    width: 5rem;
+    height: 3rem;
+    margin-top: 17px;
+    border-radius: 8px;
+    font-size: 13px;
+    color: aliceblue;  
+    font-family: 'Roboto', sans-serif; 
+    letter-spacing: 1px;
+    font-size: 13px;
+    margin-left: 16rem;
+    background-color: var(--button-color);
+}
+nav ul button:hover{
+    background-color: #3c2a8b;
+  }
+header a{
+    list-style: none;
+    color: var(--secondary-color);
+}
+.sec-div{
+    margin-top: 100px;
+}
+.sec-home{
+    filter: brightness(60%);
+    background-image: url('https://html-css-simply-recipes.netlify.app/assets/main.jpeg');
+    background-size: cover;
+    background-position:center;
+    border-radius: 4px;
+    font-family: 'Roboto', sans-serif;
+    line-height: 6rem;
+}
+.container1{
+    margin-top: 10px;
+    margin-left: 50px;
+    margin-right: 0px;
+    margin-bottom: -250px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+}
+#main-home{ 
+    width: 80%; 
+    display: grid;
+    border: none;
+    margin-top: 120px;
+    margin-left: 215px; 
+    margin-right: 1px;
+    grid-template-columns: repeat(auto-fill, 320px);
+    justify-content: center;
+    font-family: 'Roboto', sans-serif;
+    position: relative;
+}
+#main1 {  
+    display: grid;
+    border: none;
+    margin-top: 25px;
+    margin-left: 10px; 
+    margin-right: 1px;
+    margin-bottom: 70.5px;
+    grid-template-columns: repeat(auto-fit, 320px);
+    justify-content: center;
+    font-family: 'Roboto', sans-serif;
+}
+#main2 {  
+    display: grid;
+    border: none;
+    margin-top: 25px;
+    margin-left: 10px; 
+    margin-right: 1px;
+    margin-bottom: 70.5px;
+    padding-left: 20px;
+    grid-template-columns: repeat(auto-fill, 320px);
+    justify-content: center;
+    font-family: 'Roboto', sans-serif;
+    
+}
+.container2 {
+    display: flex;
+    justify-content: left;
+    padding: 2rem;
+}
+
+.container3 {
+    display: flex;
+    justify-content: left;
+    padding: 2rem;
+}
+.btn-tag{
+    margin: 1px 50px;
+    padding: 10px 2.5cm;
+    font-size: 14px;
+    background-color: rgb(80, 95, 108);
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    position: relative;
+    display: flex;
+}
+.btn-tag2{
+    margin: 1px 50px;
+    padding: 10px 2.5cm;
+    font-size: 14px;
+    background-color: rgb(80, 95, 108);
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    position: relative;
+    display: flex;
+}
+.btn-tag:hover {
+    background-color: #0056b3;
+}
+.btn-tag2:hover {
+    background-color: #0056b3;
+}
+  
+.footer {
+    position:relative;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(69, 69, 69);
+    color: white;
+    text-align: center;
+    padding:10px;
+    text-decoration: none;
+}   
+.footer a{
+    text-decoration: none;
+    color: #fff;
+}
+@media screen and (max-width:902px){
+    header nav{
+        background-color: #045757;
+    }
+    nav ul {
+        height: 8px;
+        display: grid;
+        text-align: center;
+    }
+    nav ul button{
+        align-items: center;
+        display: grid;
+        margin-left: 43%;
+        text-align: center;
+    }
+    .sec-div{
+        margin-top: 540px;
+    }
+    .sec-home{
+        margin-top: 550px;
+        display: grid;
+        align-items: center;
+        text-align: center;
+        position:static;
+        filter: brightness(60%);
+        background-image: url('https://html-css-simply-recipes.netlify.app/assets/main.jpeg');
+        background-size: cover;
+        background-position:center;
+        border-radius: 4px;
+        font-family: 'Roboto', sans-serif;
+        line-height: 6rem;
+    }
+    .container1{
+        display: grid;
+        text-align: center;
+    }
+    .recipe-list {
+        list-style: none;
+        padding: 0;
+        line-height: 25px;
+        margin-left: -10px;
+        position: relative;
+    }
+    #main-home{
+        margin-top: 300px;
+        margin-left: 80px;
+        align-items: center;
+        position: relative;
+        display: grid;
+    }
+    .container2 {
+        display: grid;
+        margin: auto;
+        margin-top: 510px;
+        margin-left: 80px;
+        justify-content: center;
+        padding: 2rem;
+        margin-bottom: 10px;
+    }
+    
+    .container3 {
+        padding: 20px;
+        display: grid;
+        margin-left: 80px;
+        margin-top: -70px;
+        justify-content: center;
+        padding: 2rem;
+    }
+}

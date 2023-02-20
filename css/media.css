@@ -1,0 +1,66 @@
+
+.header {
+    overflow: hidden;
+    padding: 20px 10px;
+  }
+  
+  
+  .header a {
+    float: left;
+    color: black;
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 25px;
+    border-radius: 4px;
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  
+  .header a.logo {
+    font-size: 25px;
+    font-weight: 100;
+
+  }
+
+  .button{
+    background-color: rgb(41, 112, 218);
+    border: #000000;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border-radius: 5px;
+    cursor: pointer;    
+    color: aliceblue;  
+    font-family: 'Roboto', sans-serif; 
+    letter-spacing: 1px;
+    font-size: 10px;
+}
+.padding-left{
+    float: right;
+}
+.recipe{
+    margin-right: 300px;
+}
+  
+  @media screen and (max-width: 902px) {
+    .header{
+        background-color: aqua;
+    }
+    .header a {
+      float: none;
+      display: grid;
+      text-align: center;
+    }
+    .button{
+        float: none;
+        display: grid;
+        text-align: center;
+        margin: auto;
+    }
+    .recipe{
+        margin-right: 0px;
+    }
+  }
