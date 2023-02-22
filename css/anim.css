@@ -335,6 +335,190 @@ header a{
     font-family: 'Roboto', sans-serif;
     font-weight: 100;
 }
+.in-con-sr img{
+    justify-content: left;
+    display: grid;
+    position: relative;
+    width: 33rem;
+    height: 8cm;
+    border-radius: 4px;
+    margin-left: 70px;
+    margin-top: 25px;
+}
+.div-sr{
+    height: 10cm;
+    width: 50%;
+    padding: 10px;
+    padding-right: 35px;
+    line-height: 23px;
+    margin-left: 600px;
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 0px;
+    margin-top: -370px;
+}  
+.div-sr p{
+    font-size: 14px;
+    margin: 0;
+    color: #585858;
+} 
+.div-sr h1{
+    font-weight: 200;
+    font-size: 33px;
+    line-height: 50px;
+    margin-bottom: -8px;
+    letter-spacing: 1.6px;
+}
+.prp-time{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 170px);
+    margin-left: 27px;
+}
+.in-prp-time{
+    margin-left: 20px;
+} 
+.in-prp-time img{
+    height: 35px;
+    padding-left: 10px;
+}
+.in-prp-time2{
+    margin-left: 12px;
+    font-size: 11.5px !important;
+    letter-spacing: 0.8px !important;
+    color: #000000 !important;
+    font-weight: 3000px !important;
+} 
+.in-prp-time2 img{
+    height: 35px;
+    padding-left: 0px;
+}
+.in-prp-time p{
+    font-size: 11.5px;
+    letter-spacing: 0.8px;
+    color: #000000 !important;
+    font-weight: 3000;
+}
+.in-prp-time-a1{
+    font-size: 12px;
+    font-weight: 20px;
+    color: #585858;
+    text-align: center;
+    padding-left: 6px;
+}
+.in-prp-time-a2 {
+    font-size: 12px; 
+    font-weight: 20px;
+    color: #585858;
+    text-align: center;
+    padding-left: 6px;
+}
+.in-prp-time-a3{
+    font-size: 12px;
+    font-weight: 20px;
+    color: #585858;
+    text-align: center;
+    padding-left: 1px;
+}
+.btn-sr{
+    margin-top: 15px;
+    font-family:  'Roboto', sans-serif;
+}
+.in-btn-sr a{
+    font-size: 9px;
+    font-weight: 600;
+}
+.btn-sing{
+    font-size: 3px;
+    font-weight: bold;
+    color: aliceblue;
+    background-color: #5a68e4;
+    margin-right: 2px;
+    border-radius: 3px;
+    border-color: none;
+    border-width: none;
+    letter-spacing: 0.3px;
+    padding: 3px;
+}
+.btn-sing:hover{
+    background-color: #3c2a8b;
+}
+.sing-con1{
+    font-family: 'Roboto', sans-serif;
+    height: 10cm;
+    width: 18cm;
+    margin-left: -540px;
+    margin-top: 40px;
+   }
+  
+   .sing-con1 h2{
+    font-weight: 100;
+    padding-bottom: 6px;
+   }
+  
+   .sing-con1 a{
+    font-weight: bold;
+    color: #5a68e4;
+   }
+  
+   .sing-con1 hr{
+    margin-top: -13px;
+    width: 16cm;
+    margin-left: 70px;
+    border: 1.35px solid #c9cce7;
+   }
+  
+   .sing-con1 p{
+    margin-top: 15px;
+    padding-bottom: 20px;
+   }
+  
+   .sing-con2{
+    font-family: 'Roboto', sans-serif;
+    height: 6.5cm;
+    width: 8cm;
+    margin-top: -375px;
+    margin-left: 200px;
+   }
+   
+   .sing-con2 h2{
+    font-weight: 100;
+    padding-bottom: 6px;
+   }
+  
+   .sing-con2 hr{
+    border: 1.35px solid #c9cce7;
+    margin-bottom: 25px;
+   }
+  
+   .sing-con2 a{
+    font-weight: 100;
+    font-size: 13px;
+    color: #585858;
+   }
+  
+   .sing-con3{
+    height: 6.5cm;
+    width: 8cm;
+    font-family: 'Roboto', sans-serif;
+    margin-left: 200px;
+    margin-top: -10px;
+   }
+  
+   .sing-con3 h2{
+    font-weight: 100;
+    padding-bottom: 6px;
+   }
+  
+   .sing-con3 hr{
+    border: 1.35px solid #c9cce7;
+    margin-bottom: 25px;
+   }
+  
+   .sing-con3 a{
+    font-weight: 100;
+    font-size: 13px;
+    color: #5a68e4;
+   }
+  
 @media screen and (max-width:902px){
     header nav{
         background-color: #045757;
@@ -507,5 +691,37 @@ header a{
         display: grid;
         position: relative;
         justify-content: center;
+    }
+    .in-con-sr img{
+        justify-content: center;
+        position: relative;
+        display: grid;
+        width: 22rem;
+        height: 4cm;
+        margin-top: 550px;
+    }
+    .div-sr{
+        background-color: #ffffff;
+        margin-top: 50px;
+        margin-left: 70px;
+        height: 10cm;
+        width: 23rem;
+        display: grid;
+        justify-content: center;
+        
+    }
+    .div-sr h1{
+        font-size: 25px;
+        text-align: center;
+        justify-content: center;
+        display: ;
+    }
+    .div-sr p{
+        font-size: 15px;
+        font-weight: bold;
+        display:flex;
+        justify-content: center;
+        position: relative;
+        float: center;
     }
 }
