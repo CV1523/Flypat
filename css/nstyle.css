@@ -154,6 +154,23 @@ nav ul button:hover{
     color: #000000;
     line-height: 1.25rem;
 }
+.tag-btn{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 2rem;
+    padding-bottom: 3rem;
+    text-align: center;
+}
+.btn{
+    background-color: #475569;
+    padding: 0.75rem 0;
+    border-radius: 3px;
+    color: #ffffff;
+}
+.btn:hover{
+    transition: 0.6ms;
+    background-color: #0f172a;
+}
 footer{
     background-color: #292929;
     position: relative;
@@ -192,11 +209,16 @@ footer a{
     #card-con{
         grid-template-columns: 1fr 1fr;
     }
-
+    .tag-btn{
+        grid-template-columns: 1fr 1fr;
+    }
 }
 
 @media (max-width:550px) {
     #card-con{
+        grid-template-columns: 1fr;
+    }
+    .tag-btn{
         grid-template-columns: 1fr;
     }
 }
