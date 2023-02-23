@@ -178,6 +178,10 @@ nav ul button:hover{
     transition: 0.6ms;
     background-color: #0f172a;
 }
+.tt-beef h2{
+    font-weight: lighter;
+    letter-spacing: 2px;
+}
 footer{
     background-color: #292929;
     position: relative;
@@ -191,6 +195,7 @@ footer a{
     text-decoration: none;
     color: #ffffff;
 }
+
 @media (max-width:993px){
     .toggle-btn{
         display: block;
