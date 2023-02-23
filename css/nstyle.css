@@ -11,7 +11,7 @@ html{
 body{
     font-family: 'Roboto', sans-serif;
     min-height: 100%;
-    display: flex;
+    display: block;
     flex-direction: column;
 }
 header{
@@ -43,12 +43,12 @@ nav ul button{
     padding-bottom: 10px;
     font-size: 15px;
     color: aliceblue;
-    background-color: rgb(133, 37, 207);
+    background-color: #8525cf;
     border: none;
     border-radius: 5px;
 }
 nav ul button:hover{
-    background-color: rgb(82, 23, 128);
+    background-color: #521780;
 } 
 .toggle-btn{
     width: 35px;
@@ -182,6 +182,223 @@ nav ul button:hover{
     font-weight: lighter;
     letter-spacing: 2px;
 }
+.sr-main{
+    gap: 3rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.sr-con1 img{
+    margin-top: 4rem;
+    width: 100%;
+    height: 300px;
+    border-radius: 4px;
+    object-fit: cover;
+    display: block;
+}
+.sr-con2{
+    display: block;
+    margin-top: 10px;
+    float: right;
+}
+.sr-con2 h1{
+    font-size: 2.5rem;
+    font-weight: lighter;
+}
+.sr-con2 p{
+    line-height: 1.8rem;
+    color: #475569;
+    margin-top: 0;
+    max-width: 40em;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+.in-sr-con2{
+    margin-left: 50px;
+    gap: 8rem;
+    display: flex;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.d-in-sr-con2{
+    text-align: center;
+    display: block;
+    line-height: 10px;
+}
+.d-in-sr-con2 p{
+    font-size: 12px;
+    color: #000;
+    margin-top: 0;
+    letter-spacing: 2px;
+    margin-bottom: 0;
+}
+.d-in-sr-con2 a{
+    font-size: 12px;
+    color: #475569;
+}
+.in2-sr-con2{
+    font-size: 12px;
+    font-weight: bold;
+    margin-top: 30px;
+    width: 100%;
+    display: inline-flex;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 5px;
+}
+.btn-sing{
+    display: flex;
+    font-size: 3px;
+    font-weight: bold;
+    color: aliceblue;
+    background-color: #5a68e4;
+    border-radius: 3px;
+    letter-spacing: 0.3px;
+    padding: 3px;
+    border: none;
+}
+.btn-sing:hover{
+    background-color: #3c2a8b;
+}
+.sr-main2{
+    display: grid;
+    grid-template-columns: 1fr;
+}
+.ins-main2{
+    width: 100%;
+}
+.mt-sr-main2{
+    margin-top: 2rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.in-sr-main2{
+    display: flex;
+    flex-direction:column;
+}
+.d-in-sr-main2{
+    font-family: 'Roboto', sans-serif;
+    height: 6.5cm;
+    display: block;
+    width: 8cm;
+    margin-top: 0;
+    margin-left: 50rem;
+}
+.d-in-sr-main2 h2{
+    font-weight: 100;
+    padding-bottom: 6px;
+}
+.d-in-sr-main2 hr{
+    border: 1.35px solid #c9cce7;
+    margin-bottom: 25px;
+}
+.d-in-sr-main2 a{
+    font-weight: 100;
+    font-size: 13px;
+    color: #585858;
+}
+.sr-main{
+    gap: 3rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.sr-con1 img{
+    margin-top: 4rem;
+    width: 100%;
+    height: 300px;
+    border-radius: 4px;
+    object-fit: cover;
+    display: block;
+}
+.act-main{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.act-con1{
+    display: block;
+    width: 100%;
+}
+.act-con2{
+    display: block;
+    margin-top: 50px;
+    float: left;
+}
+.act-con2 h1{
+    font-size: 2rem;
+    font-weight: lighter;
+}
+.act-con2 p{
+    line-height: 1.6rem;
+    color: #475569;
+    margin-top: 10px;
+    max-width: 40em;
+    display: block;
+}
+.act-con1{
+    height: 23em;
+    width: 100%;
+    padding: 10px;
+    display: block;
+    position: relative;
+    margin-top: 1px;
+    margin-left: 10px;
+    justify-content: center;
+}
+.contact-form {
+    background-color: white;
+    box-shadow: 0 2px 2px rgba(0,0,0,0.5), 0 0 2px rgba(0,0,0,0.5), 2px 0 2px rgba(0,0,0,0.5);
+    padding: 20px;
+    width: 500px;
+    margin: 0 auto;
+    border: none;
+    border-radius: 5px;
+  }
+  form{
+    padding: 12px;
+  }
+
+  .form-input {
+    display: block;
+    margin-bottom: 10px;
+  }
+
+  label {
+    display: block;
+    padding: 4px;
+    font-size: 11px;
+    margin-bottom: 5px;
+    font-weight: lighter;
+    letter-spacing: 1px;
+  }
+
+  input[type="text"], textarea {
+    width: 100%;
+    padding: 10px;
+    border: 0.25px solid #d9d5d5;
+    border-radius: 4px;
+    background-color:aliceblue;
+  }
+
+  button[type="submit"] {
+    background-color: #8525cf;
+    color: white;
+    width: 100%;
+    border: none;
+    padding: 10px;
+    font-size: 15px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+  button[type="submit"]:hover {
+    background-color: #521780;
+  }
+.div-awe{
+    text-align: center;
+    padding: 30px;
+    margin-top: 10px;
+    font-size: 20px;
+}
 footer{
     background-color: #292929;
     position: relative;
@@ -224,14 +441,70 @@ footer a{
     .tag-btn{
         grid-template-columns: 1fr 1fr;
     }
+    .sr-main{
+        display: flex;
+        flex-direction: column;
+    }
+    .sr-con1 img{
+        width: 100%;
+    }
+    .sr-con2{
+        width: 100%;
+    }
+    .in-sr-con2{
+        width: 100%;
+        position: relative;
+        gap: 13rem;
+        margin-left: 0;
+    }
+    .act-main{
+        grid-template-columns: 1fr;
+    }
+    .act-con1{
+        width: 100%;
+        display: block;
+        position: relative;
+        float: left;
+    }
+    .contact-form{
+        width: 100%;
+        position: relative;
+        justify-items: left;
+        display: block;
+        margin-top: 2rem;
+    }
+    .div-awe{
+        margin-top: 25px;
+    }
 }
 
+@media (max-width:910px){
+    .in-sr-con2{
+        gap: 10rem;
+    }
+    .contact-form{
+        width: 100%;
+        position: relative;
+        justify-items: left;
+        display: block;
+    }
+}
 @media (max-width:550px) {
     #card-con{
         grid-template-columns: 1fr;
     }
     .tag-btn{
         grid-template-columns: 1fr;
+    }
+    .in-sr-con2{
+        margin-left: 0;
+        gap: 2rem;
+    }
+    .d-in-sr-con2 p{
+        font-size: 8px;
+    }
+    .d-in-sr-con2 a{
+        font-size: 8px;
     }
 }
 @media (max-width: 766px) {
@@ -255,5 +528,8 @@ footer a{
     .home-con{
         grid-template-columns: 1fr;
     }
-
+    .in-sr-con2{
+        margin-left: 0;
+        gap: 7rem;
+    }
 }
