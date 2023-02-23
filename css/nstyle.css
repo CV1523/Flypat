@@ -153,6 +153,13 @@ nav ul button:hover{
 .container1 h4, .container1 p{
     color: #000000;
     line-height: 1.25rem;
+    word-spacing: 4px;
+}
+.container1 h4{
+    font-weight: 550;
+}
+.container1 p{
+    font-size: 13.5px;
 }
 .tag-btn{
     display: grid;
