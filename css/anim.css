@@ -194,6 +194,7 @@ header a{
     background-color: #0056b3;
 }
 .div-abt{
+    display: block;
     height: 10cm;
     width: 40%;
     padding: 10px;
@@ -202,6 +203,7 @@ header a{
     margin-left: 60px;
     font-family: 'Roboto', sans-serif;
     margin-bottom: 0px;
+    background-color: #0056b3;
 }
  .div-con p{
   font-size: 15px;

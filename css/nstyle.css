@@ -399,6 +399,67 @@ nav ul button:hover{
     margin-top: 10px;
     font-size: 20px;
 }
+.in-abt1{
+    display: block;
+    height: 10cm;
+    width: 100%;
+    line-height: 25px;
+    margin-left: 0px;
+    margin-top: 85px;
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 0px;
+}
+.in-abt1 h1{
+    font-size: 2.6rem;
+    line-height: 50px;
+}
+.in-abt1 button{
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 15px;
+    color: aliceblue;
+    background-color: #8525cf;
+    border: none;
+    border-radius: 5px;
+}
+.in-abt2{
+    position: relative;
+    background-size: cover;
+    background-position:center;
+    border-radius: 4px;
+    line-height: 1rem;
+    font-size: 2rem;
+    text-align: center;
+    display: block;
+    background-image: url('https://html-css-simply-recipes.netlify.app/assets/about.jpeg');
+    margin-top: 20px;
+    height: 27.8rem;
+    margin-bottom: 2rem;
+    width: 100%;
+}
+.abt-main{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.act-main{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+btn{
+    cursor: pointer;
+    color: white;
+    background-color: #8525cf;
+    border: transparent;
+    border-radius: 4px;
+    padding: 0.375rem 0.75rem;
+    text-transform: capitalize;
+    display: inline-block;
+}
+btn:hover{
+    background-color: #521780;
+} 
 footer{
     background-color: #292929;
     position: relative;
@@ -476,6 +537,17 @@ footer a{
     .div-awe{
         margin-top: 25px;
     }
+    .abt-main{
+        grid-template-columns: 1fr;
+        position: relative;
+    }
+    .in-abt2{
+        margin-top: 0px;
+        height: 8cm;
+        width: 100%;
+        margin-bottom: 1rem;
+        margin-left: 0;
+    }
 }
 
 @media (max-width:910px){
@@ -505,6 +577,13 @@ footer a{
     }
     .d-in-sr-con2 a{
         font-size: 8px;
+    }
+    .in-abt2{
+        margin-top: 50px;
+        height: 6cm;
+        width: 100%;
+        margin-bottom: 1rem;
+        margin-left: 0;
     }
 }
 @media (max-width: 766px) {
