@@ -27,7 +27,9 @@
                 <li><a href="NAbout.html">About</a></li>
                 <li><a href="NTags.html">Tags</a></li>
                 <li><a href="NRecipes.html">Recipes</a></li>
-                <li><button onclick="window.location.href='NContact.html'">Contact</button></li>        
+                <div class="nav-btn">
+                    <li><button onclick="window.location.href='NContact.html'">Contact</button></li>
+                </div>       
             </ul>
         </nav>
     </header>
@@ -59,15 +61,14 @@
                         display: block; font-size: 23px;"></i>
                         <p>Serving</p>
                         <a>6 servings</a>        
-                    </div>  <!--todo: resolve breaking of text-->
+                    </div> 
                 </div>
-                <div class="in2-sr-con2">
-                    <a>Tags :</a>
-                    <button class="btn-sing" onclick="window.location.href='NTag-template.html'">Beef</button>
-                    <button class="btn-sing" onclick="window.location.href='NTag-template.html'">Breakfast</button>
-                    <button class="btn-sing" onclick="window.location.href='NTag-template.html'">Pancakes</button>
-                    <button class="btn-sing" onclick="window.location.href='NTag-template.html'">Food</button>
-                </div>
+                <p class="recipe-tags">
+                    Tags : <a href="tag-template.html">beef</a>
+                    <a href="tag-template.html">breakfast</a>
+                    <a href="tag-template.html">pancakes</a>
+                    <a href="tag-template.html">food</a>
+                </p>
             </div>
         </div>
         <div class="sr-main-2">

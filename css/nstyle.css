@@ -11,20 +11,28 @@ html{
 body{
     font-family: 'Roboto', sans-serif;
     min-height: 100%;
-    display: block;
+    display: flex;
     flex-direction: column;
 }
 header{
-    display: inline-block;
+    align-items: center;
+    display: flex;
     width: 100%;
     padding: 25px 80px;
     position: relative;
 }
-.logo{
-    float: left;
+.logo img{
+    width: 200px ;
 }
 nav{
-    float: left;
+    display: flex;
+    width: 90vw;
+}
+nav ul{
+    display: flex;
+    width: 100%;
+    align-items: center;
+
 }
 nav ul li{
     display: inline-block;
@@ -35,6 +43,14 @@ nav ul li a{
     display: inline-block;
     color: black;
     font-weight: 200;
+}
+nav ul li button{
+    margin-right: 0;
+    margin-left: auto;
+}
+.nav-btn{
+    margin-left: auto;
+    margin-right: 0;
 }
 nav ul button{
     padding-left: 15px;
@@ -54,7 +70,6 @@ nav ul button:hover{
     width: 35px;
     position: absolute;
     right: 80px;
-    top: 40px;
     display: none;
 }
 .toggle-btn span{
@@ -64,6 +79,7 @@ nav ul button:hover{
     background-color: black;
     float: left;
     margin-bottom: 8px;
+    transition: 0.8ms;
 }
 .container{
     width: 100%;
@@ -74,31 +90,34 @@ nav ul button:hover{
     padding-bottom: 2rem;
 }
 .sec-home{
+    height: 40vh;
     position: relative;
-    background-size: cover;
-    background-position:center;
-    border-radius: 4px;
-    line-height: 1rem;
-    font-size: 2rem;
-    text-align: center;
-    display: grid;
-    filter: brightness(50%);
-    background-image: url('https://html-css-simply-recipes.netlify.app/assets/main.jpeg');
-    margin-top: 30px;
-    height: 15rem;
     margin-bottom: 2rem;
+    background: url('https://html-css-simply-recipes.netlify.app/assets/main.jpeg') center/cover no-repeat;
+    border-radius: 4px;
 }
 .sec-home div{
     line-height: 2rem;
 }
-.sec-home h1{
+.in-sec-home{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(0, 0, 0, 0.4);
+}
+.in-sec-home-txt h1{
     padding-top: 70px;
     text-align: center;
     font-size: 60px;
     font-weight: 100;
     color: rgb(255, 255, 255);
 }
-.sec-home p{
+.in-sec-home-txt p{
     text-align: center;
     font-size: 25px;
     padding-bottom: 70px; 
@@ -246,19 +265,21 @@ nav ul button:hover{
     grid-template-columns: 1fr 1fr 1fr 1fr;
     gap: 5px;
 }
-.btn-sing{
+.recipe-tags{
     display: flex;
-    font-size: 3px;
-    font-weight: bold;
-    color: aliceblue;
-    background-color: #5a68e4;
-    border-radius: 3px;
-    letter-spacing: 0.3px;
-    padding: 3px;
-    border: none;
+    align-items: center;
+    flex-wrap: wrap;
+    font-size: 0.7em;
+    font-weight: 600;
 }
-.btn-sing:hover{
-    background-color: #3c2a8b;
+.recipe-tags a{
+    background: #8525cf;
+    border-radius: 3px;
+    color: white;
+    font-size: 10px;
+    padding: 0.4rem 0.5rem;
+    margin: 0 0.1rem;
+    text-transform: capitalize;
 }
 .sr-main2{
     display: grid;
@@ -525,6 +546,10 @@ btn:hover{
     padding: 2px;
    }
    .sr-main-3{
+    display: block;
+    position: relative;
+    float: right;
+    justify-content: right;
     height: 6.5cm;
     width: 8.8cm;
     font-family: 'Roboto', sans-serif;
@@ -582,12 +607,18 @@ footer a{
     .toggle-btn{
         display: block;
     }
+    header{
+        display: block;
+    }
     nav{
         display: none;
         width: 100%;
         border-top: 1px solid #000;
         margin-top: 30px;
         padding-top: 20px;
+    }
+    nav ul{
+        display: block;
     }
     nav ul li{
         padding: 15px 0px;
@@ -667,6 +698,13 @@ footer a{
     .sr-main-3 hr{
         width: 15cm;
     }
+    .container{
+        padding-left: 4rem;
+        padding-right: 4.5rem;
+    }
+    .in-sec-home-txt h1{
+        font-size: 45px;
+    }
 }
 
 @media (max-width:910px){
@@ -678,6 +716,10 @@ footer a{
         position: relative;
         justify-items: left;
         display: block;
+    }
+    .container{
+        padding-left: 3rem;
+        padding-right: 3.5rem;
     }
 }
 @media (max-width:550px) {
@@ -713,12 +755,21 @@ footer a{
     .sr-main-3 hr{
         width: 100%;
     }
+    .container{
+        padding-left: 2rem;
+        padding-right: 2.5rem;
+    }
+    .in-sec-home-txt h1{
+        font-size: 35px;
+    }
 }
 @media (max-width: 766px) {
     .sec-home h1{
-        font-size: 45px;
+        font-size: 35px;
     }
-
+    .in-sec-home-txt p{
+        font-size: 20px;
+    }
     .list{
         grid-row: 2;
         grid-column: 1;
@@ -746,6 +797,6 @@ footer a{
         width: 100%;
     }
     .sr-main-3 hr{
-        width: 100%;
+        width: 80%;
     }
 }
