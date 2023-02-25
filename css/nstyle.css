@@ -721,6 +721,11 @@ footer a{
     #card-con{
         grid-template-columns: 1fr;
     }
+    .logo img{
+        width: 180px;
+        padding-right: 5px;
+        float: left;
+    }
     .tag-btn{
         grid-template-columns: 1fr;
     }
